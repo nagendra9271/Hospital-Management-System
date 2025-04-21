@@ -1,0 +1,154 @@
+.test-entry-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.test-entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.test-entry-header h3 {
+  margin: 0;
+  color: #333;
+}
+
+.test-meta {
+  display: flex;
+  gap: 15px;
+}
+
+.test-name {
+  font-weight: bold;
+  color: #555;
+}
+
+.test-date {
+  color: #777;
+}
+
+.test-entry-body {
+  margin-bottom: 15px;
+}
+
+.test-entry-body label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.test-entry-body textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+  min-height: 100px;
+}
+
+.test-entry-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.search-container {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.search-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.search-select {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.search-input-wrapper {
+  position: relative;
+  flex-grow: 1;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #777;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px 12px 8px 35px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.test-entry-card .doctor-name {
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+.search-select-input {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.dropdown-toggle-btn {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background 0.2s ease;
+}
+
+.dropdown-toggle-btn:hover {
+  background-color: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+  .search-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search-select {
+    width: 100%;
+  }
+}
