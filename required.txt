@@ -1,0 +1,9 @@
+1)return respective dashboard on incorrect access
+2)dashboard directs
+4)add description to record table in doctor,patient search in record treatment
+5)cancel the appointments after the date
+7) only one recommdation for patient
+8) TOAST IN APPOINTMENT
+9)modify search in appointment
+10)only one appointment of each doctor for patient.
+11)today appointments update.
