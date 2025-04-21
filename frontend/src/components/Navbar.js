@@ -20,9 +20,12 @@ export default function CustomNavbar() {
     <Navbar
       collapseOnSelect
       expand="lg"
-      bg="primary" // Calming hospital blue
-      variant="dark" // Text color becomes white
-      className="shadow-sm fixed-top z-3"
+      style={{
+        background: "linear-gradient(90deg, #4158D0 0%, #C850C0 100%)",
+        // padding: "12px 0",
+        boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+      }}
+      className="navbar-dark shadow-sm fixed-top z-3"
     >
       <Container>
         <Navbar.Brand
@@ -30,7 +33,7 @@ export default function CustomNavbar() {
           to="/"
           className="fs-3 fw-semibold d-flex align-items-center gap-2"
         >
-          🏥 <span>Hospital System</span>
+          🏥 <span>MediCare</span>
         </Navbar.Brand>
 
         <Navbar.Toggle />

@@ -21,7 +21,7 @@ export default function NurseDashboard() {
       <h2 className="mb-4 text-center">Nurse Dashboard</h2>
 
       <Row className="mb-4">
-        <Col md={4} sm={6} className="mb-3">
+        <Col md={6} sm={6} className="mb-3">
           <Card className="shadow-sm text-center h-100">
             <Card.Body>
               <FaFileMedical size={35} className="mb-2 text-success" />
@@ -39,7 +39,7 @@ export default function NurseDashboard() {
           </Card>
         </Col>
 
-        <Col md={4} sm={6} className="mb-3">
+        <Col md={6} sm={6} className="mb-3">
           <Card className="shadow-sm text-center h-100">
             <Card.Body>
               <FaClipboard size={35} className="mb-2 text-primary" />
